@@ -2,10 +2,7 @@ package com.commonman.manishankar.saferout;
 
 import android.*;
 import android.app.ProgressDialog;
-<<<<<<< HEAD
 import android.content.Intent;
-=======
->>>>>>> 49f78d47ba8264700e1ec11757c5d8ed5c3387ad
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.support.v4.app.ActivityCompat;
@@ -46,11 +43,7 @@ public class Map extends FragmentActivity implements OnMapReadyCallback, Directi
     private List<Marker> destinationMarkers = new ArrayList<>();
     private List<Polyline> polylinePaths = new ArrayList<>();
     private ProgressDialog progressDialog;
-<<<<<<< HEAD
     LatLng mpos;
-=======
-
->>>>>>> 49f78d47ba8264700e1ec11757c5d8ed5c3387ad
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -110,10 +103,7 @@ public class Map extends FragmentActivity implements OnMapReadyCallback, Directi
             return;
         }
         mMap.setMyLocationEnabled(true);
-<<<<<<< HEAD
 
-=======
->>>>>>> 49f78d47ba8264700e1ec11757c5d8ed5c3387ad
     }
 
 

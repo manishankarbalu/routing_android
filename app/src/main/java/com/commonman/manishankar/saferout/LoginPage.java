@@ -50,11 +50,7 @@ public class LoginPage extends AppCompatActivity {
                             //                          Toast.makeText(getApplicationContext(),"reached loginresponse part",2000).show();
                             if(jsonres.getBoolean("success")){
 
-<<<<<<< HEAD
                                 Intent i=new Intent(getApplicationContext(),IntroScrene.class);
-=======
-                                Intent i=new Intent(getApplicationContext(),Map.class);
->>>>>>> 49f78d47ba8264700e1ec11757c5d8ed5c3387ad
                                 startActivity(i);
 
 
