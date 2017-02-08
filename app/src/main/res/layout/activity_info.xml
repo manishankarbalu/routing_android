@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.commonman.manishankar.saferout.Info">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help with your review"
+        android:id="@+id/txtv"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crime Rate"
+        android:id="@+id/cr"
+        android:checked="false"
+        android:layout_below="@+id/txtv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/crs"
+        android:spinnerMode="dropdown"
+        android:layout_alignBaseline="@+id/cr"
+        android:layout_alignBottom="@+id/cr"
+        android:layout_toRightOf="@+id/cr"
+        android:layout_toEndOf="@+id/cr"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Road Condition"
+        android:id="@+id/rc"
+        android:layout_below="@+id/crs"
+        android:layout_toLeftOf="@+id/crs"
+        android:layout_toStartOf="@+id/crs"
+        android:checked="false" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rs"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/crs"
+        android:layout_alignLeft="@+id/crs"
+        android:layout_alignStart="@+id/crs"
+        android:spinnerMode="dropdown" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lighting"
+        android:id="@+id/l"
+        android:layout_marginTop="20dp"
+        android:checked="false"
+        android:layout_below="@+id/rs"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ls"
+        android:layout_below="@+id/rs"
+        android:layout_toRightOf="@+id/rc"
+        android:layout_toEndOf="@+id/rc"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Reviw"
+        android:id="@+id/submit"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/ls"
+        android:layout_alignLeft="@+id/ls"
+        android:layout_alignStart="@+id/ls" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Lattitude And Longitude  :"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/submit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/pos"
+        android:layout_below="@+id/textView6"
+        android:layout_toRightOf="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6" />
+
+</RelativeLayout>
