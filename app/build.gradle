@@ -24,7 +24,10 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.volley:volley:1.0.0'
     compile 'com.android.support:appcompat-v7:23.4.0'
+<<<<<<< HEAD
     compile 'com.android.support:design:23.2.0'
     compile 'com.android.support:support-v4:23.2.0'
+=======
+>>>>>>> 49f78d47ba8264700e1ec11757c5d8ed5c3387ad
     compile 'com.google.android.gms:play-services:9.2.0'
 }
